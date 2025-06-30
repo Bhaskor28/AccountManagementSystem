@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AccountManagementSystem.Infrastructure\AccountManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\AccountMangementSystem.Application\AccountMangementSystem.Application.csproj" />
+  </ItemGroup>
+
 </Project>
